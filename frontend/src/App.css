@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mobile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70vh;
+  height: 100%;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}

@@ -1,0 +1,10 @@
+.navContainer {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}

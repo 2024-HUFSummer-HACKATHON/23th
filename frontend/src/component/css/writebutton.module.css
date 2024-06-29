@@ -1,0 +1,67 @@
+.my {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menuDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 중앙 정렬 */
+  justify-content: center;
+  padding: 10px;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  width: 35%;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #45bc53, #205626);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: fixed;
+  bottom: 5.5rem; /* 푸터 높이 + 간격 */
+  left: 50%; /* 왼쪽에서 50% */
+  transform: translateX(-50%); /* X축으로 -50% 이동하여 중앙 정렬 */
+  z-index: 1001; /* 푸터보다 높은 z-index */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content span {
+  margin-left: 5px;
+  color: #878787;
+  font-weight: bolder;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: fixed; /* fixed로 변경 */
+  height: 5rem; /* 푸터 높이 설정 */
+  width: 100%;
+  background-color: white; /* 배경 색상을 추가해 겹치는 부분 명확히 */
+  z-index: 1000; /* 다른 요소 위에 고정 */
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.05em solid;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column; /* column 방향으로 변경 */
+  align-items: center;
+  color: #868686;
+  text-decoration-line: none;
+  margin: 10px;
+  filter: invert(68%) sepia(7%) saturate(0%) hue-rotate(180deg) brightness(87%)
+    contrast(84%);
+}

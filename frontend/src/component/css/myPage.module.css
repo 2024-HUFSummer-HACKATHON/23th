@@ -1,0 +1,38 @@
+.my {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.myContent {
+  margin-top: 70px;
+}
+.myContent img {
+  margin-bottom: 50px;
+}
+.category {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  color: #3e3e3e;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  margin: 20px;
+  border: 1px solid #45bc53;
+  padding: 20px;
+  width: 60%;
+  font-weight: bolder;
+  text-decoration-line: none;
+  color: #45bc53;
+}
+.btn:hover {
+  background-color: #45bc53;
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+}

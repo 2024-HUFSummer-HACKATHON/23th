@@ -1,0 +1,28 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: fixed; /* fixed로 변경 */
+  height: 5rem;
+  width: 100%;
+  background-color: white; /* 배경 색상을 추가해 겹치는 부분 명확히 */
+  z-index: 1000; /* 다른 요소 위에 고정 */
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.05em solid;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column; /* column 방향으로 변경 */
+  align-items: center;
+  color: #868686;
+  text-decoration-line: none;
+  margin: 10px;
+  filter: invert(68%) sepia(7%) saturate(0%) hue-rotate(180deg) brightness(87%)
+    contrast(84%);
+}

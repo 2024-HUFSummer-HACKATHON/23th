@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #45bc53;
+  color: #f2f2f2;
+  font-weight: bolder;
+  background-image: url("../img/Pattern.png");
+}
+.message {
+  display: flex;
+  text-align: left;
+  margin-left: 10px;
+}
+.menuRec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menuRec {
+  padding: 10px;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  width: 85%;
+  height: 370px;
+  margin-top: 260px;
+}
+.mainTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.banerTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: space-around;
+  width: 200%;
+}
+.btnDiv {
+  height: 50px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  margin-right: 220px;
+  background-color: #101010;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.recontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.recontent span {
+  margin-left: 100px;
+  color: #878787;
+  font-weight: bolder;
+}
+.none {
+  text-decoration: none;
+  color: #1d1d21;
+}
+.menuDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.menuDiv {
+  margin: 10px 0px 0px 20px;
+  padding: 10px;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  width: 80%;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #45bc53, #205626);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.content span {
+  margin-left: 50px;
+  color: #878787;
+  font-weight: bolder;
+}
+.category {
+  color: #3e3e3e;
+}
